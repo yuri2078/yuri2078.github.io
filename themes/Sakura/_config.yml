@@ -1,12 +1,12 @@
 # site name
-prefixName: さくら荘その
-siteName: yuri2078
+prefixName: 守护
+siteName: yuri
 # favicon and site master avatar
 favicon: /images/favicon.ico
 avatar: /img/custom/avatar.jpg
 url: https://yuri2078.github.io
 description: Live your life with passion! With some drive!
-cdn: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6
+cdn: https://cdn.jsdelivr.net/gh/yuri2078/images@1.4
 pjax: 1
 # 1开启
 mathjax: 0
@@ -47,7 +47,7 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
-  - https://cdn.jsdelivr.net/gh/yuri2078/images@1.3/wallaven-4.png
+  - https://cdn.jsdelivr.net/gh/yuri2078/images@1.4/wallaven-4.png
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 bgclass: filter-dot
