@@ -41,14 +41,16 @@ insight:
     untitled: '(无标题)'
 
 #category
-技术:
-    zh: 野生技术协会
-    en: Geek – Only for Love
-    img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/banner/coding.jpg
-生活:
+
+杂项:
     zh: 生活
     en: live
     img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/banner/writing.jpg
+cpp:
+    zh: 欢迎来到cpp
+    en: cpp is good!
+    img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/banner/coding.jpg
+
 
 #tag
 悦读:

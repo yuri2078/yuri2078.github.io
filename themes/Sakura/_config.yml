@@ -6,22 +6,22 @@ favicon: /images/favicon.ico
 avatar: /img/custom/avatar.jpg
 url: https://yuri2078.github.io
 description: Live your life with passion! With some drive!
-cdn: https://cdn.jsdelivr.net/gh/yuri2078/images@1.4
+cdn: https://cdn.jsdelivr.net/gh/yuri2078/images@1.6
 pjax: 1
 # 1开启
 mathjax: 0
 
 notice: 百合是神圣不可侵犯的，任何打扰她们的人都得死！！！
-lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
+lazyloadImg: img/loader/orange.progress-bar-stripe-loader.svg
 
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
   归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
-    技术: {path: /categories/技术/, fa: fa-code }, 
-    生活: {path: /categories/生活/, fa: fa-file-text-o }, 
-    资源: {path: /categories/资源/, fa: fa-cloud-download }, 
-    随想: {path: /categories/随想/, fa: fa-commenting-o },
-    转载: {path: /categories/转载/, fa: fa-book }
+    cpp: {path: /categories/java/, fa: fa-code }, 
+    web: {path: /categories/生活/, fa: fa-file-text-o }, 
+    杂项: {path: /categories/杂项/, fa: fa-cloud-download }, 
+    小记: {path: /categories/小记/, fa: fa-commenting-o },
+    教程: {path: /categories/教程/, fa: fa-book }
   } }
   清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
     书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
@@ -30,7 +30,7 @@ menus:
     图集: {path: /tags/图集/, fa: fa-photo }
   } }
   留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
-  友人帐: { path: /links/, fa: fa-link faa-shake }
+  友情链接: { path: /links/, fa: fa-link faa-shake }
   赞赏: { path: /donate/, fa: fa-heart faa-pulse }
   关于: { path: /, fa: fa-leaf faa-wrench , submenus: { 
     我？: {path: /about/, fa: fa-meetup}, 
@@ -47,7 +47,7 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
-  - https://cdn.jsdelivr.net/gh/yuri2078/images@1.4/wallaven-4.png
+  - https://cdn.jsdelivr.net/gh/yuri2078/images@1.6/background.png
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 bgclass: filter-dot
@@ -66,12 +66,9 @@ siteBuildingTime: 08/1/2022
 #social  url, img PC端配置
 social:
   github: {url: http://github.com/yuri2078, img: /img/social/github.png}
-  sina: {url: /#, img: /img/social/sina.png}
   wangyiyun: {url: /#, img: /img/social/wangyiyun.png}
-  zhihu: {url: /#, img: /img/social/zhihu.png}
   email: {url: yuri2078170658@gmail.com, img: /img/social/email.svg}
   wechat: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
-  wechat2: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
 
 #social  url, img 移动端配置
 msocial:
@@ -110,7 +107,7 @@ v_appKey: mgOpfzbkHYqU92CV4IDlAUHQ
 
 # Waline
 waline:
-  enable: false
+  enable: true
   serverURL: #服务端地址
   visitor: true #统计阅读量
   comment_count: true #统计评论数
