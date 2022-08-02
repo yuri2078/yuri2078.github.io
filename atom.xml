@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2021-11-09T14:13:18.000Z</updated>
+  <updated>2022-08-02T14:47:25.289Z</updated>
   <id>/</id>
   
   <author>
@@ -17,19 +17,81 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>linux常用命令</title>
+    <link href="/2022/08/02/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>/2022/08/02/linux常用命令/</id>
+    <published>2022-08-02T14:43:33.000Z</published>
+    <updated>2022-08-02T14:47:25.289Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;sudo apt-get  update&lt;/li&gt;
+&lt;li&gt;sudo apt-get uprdge&lt;/li&gt;
+&lt;li&gt;sudo apt upgrade -y 升级系统包&lt;/li&gt;
+&lt;li&gt;sudo apt install ..deb
+        
+      
+    
+    </summary>
+    
+      <category term="小记" scheme="/categories/%E5%B0%8F%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>cpp</title>
+    <link href="/2022/08/02/cpp/"/>
+    <id>/2022/08/02/cpp/</id>
+    <published>2022-08-02T14:42:50.000Z</published>
+    <updated>2022-08-02T14:42:50.576Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="杂项" scheme="/categories/%E6%9D%82%E9%A1%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hello</title>
+    <link href="/2022/08/02/hello/"/>
+    <id>/2022/08/02/hello/</id>
+    <published>2022-08-02T13:07:09.000Z</published>
+    <updated>2022-08-02T14:32:49.660Z</updated>
+    
+    <summary type="html">
+    
+      我的爱宛如孤岛之花，不为人知的开放不为人知的凋零！
+    
+    </summary>
+    
+      <category term="杂项" scheme="/categories/%E6%9D%82%E9%A1%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hexo-Theme-Sakura</title>
     <link href="/2018/12/12/Hexo-Theme-Sakura/"/>
     <id>/2018/12/12/Hexo-Theme-Sakura/</id>
     <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2021-11-09T14:13:18.000Z</updated>
+    <updated>2022-08-02T14:16:08.951Z</updated>
     
     <summary type="html">
     
-      hexo-sakura主题使用教程
+      hexo-sakura主题使用教程sj;fl;jflsdjfldsjflsdfj;ldsjfldskjf;ldsjfl;dsfjldsjf;dsjf;sjf;jfl;jfl;dsjfffffffffffffffff
     
     </summary>
     
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="java" scheme="/categories/java/"/>
     
     
       <category term="web" scheme="/tags/web/"/>
