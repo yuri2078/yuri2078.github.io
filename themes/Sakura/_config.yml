@@ -6,7 +6,7 @@ favicon: /images/favicon.ico
 avatar: /img/custom/avatar.jpg
 url: https://yuri2078.github.io
 description: Live your life with passion! With some drive!
-cdn: https://cdn.jsdelivr.net/gh/yuri2078/images@1.6
+cdn: https://cdn.jsdelivr.net/gh/yuri2078/images
 pjax: 1
 # 1开启
 mathjax: 0
@@ -17,9 +17,9 @@ lazyloadImg: img/loader/orange.progress-bar-stripe-loader.svg
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
   归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
-    cpp: {path: /categories/java/, fa: fa-code }, 
-    web: {path: /categories/生活/, fa: fa-file-text-o }, 
-    杂项: {path: /categories/杂项/, fa: fa-cloud-download }, 
+    cpp: {path: /categories/cpp/, fa: fa-code }, 
+    java: {path: /categories/java/, fa: fa-file-text-o }, 
+    py: {path: /categories/python/, fa: fa-cloud-download }, 
     小记: {path: /categories/小记/, fa: fa-commenting-o },
     教程: {path: /categories/教程/, fa: fa-book }
   } }
@@ -47,7 +47,8 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
-  - https://cdn.jsdelivr.net/gh/yuri2078/images@1.6/background.png
+  # - https://cdn.jsdelivr.net/gh/yuri2078/images@1.6/background.png
+  - https://api.ixiaowai.cn/api/api.php
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 bgclass: filter-dot
@@ -84,7 +85,7 @@ donate:
 
 # 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
 movies:
-  url: https://cdn.jsdelivr.net/gh/honjun/hojun@1.2
+  url: https://cdn.jsdelivr.net/gh/honjun/hojun
   # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
   name: Unbroken.mp4
 

@@ -7,13 +7,16 @@ authorAbout: 一般过路人
 authorDesc: 一般过路人
 categories: 小记
 comments: true
-photos: 'https://api.ixiaowai.cn/api/api.php'
+photos: 'https://cdn.jsdelivr.net/gh/yuri2078/images/headPictures/11.png'
 date: 2022-08-02 22:43:33
 tags:
-keywords: 小记
+    - 常用命令
+    - linux
+keywords: 
 description:
 ---
 
+## 安装软件
 
 + sudo apt-get  update
 + sudo apt-get uprdge
